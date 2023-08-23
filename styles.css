@@ -2,3 +2,19 @@ body {
     background-color: blueviolet;
     color: white;
 }
+.desarrollador {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.facebook,.instagram,.twitter {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
