@@ -154,22 +154,23 @@ body{
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color:rgb(24, 27, 61);
 }
 .content h1 {
     margin: 0;
     font-size: 24px;
+    color: white;
 }
 .content h3 {
     margin: 5px 0;
     font-size: 18px;
-    color: #666;
+    color: #9b9898;
 }
-.image {
+.foto-perfil {
     max-width: 50%;
     margin-right: 20px;
 }
-.content {
+.contheader-titulos {
     flex: 1;
     text-align: right;
 }
@@ -193,10 +194,10 @@ h2{
     width: 48px;
     height: 48px;
 }
-/* i{
+i{
     font-size: 48px;
     color:rgb(24, 27, 61);
-} */
+}
 .navigation a {
     text-decoration: none;
     color: #333;
@@ -245,6 +246,11 @@ footer{
     justify-content: center;
     align-items: center;
     background-color:rgb(24, 27, 61);
-    color: white;
     text-align: center;
+}
+footer.parrafo1{
+    color: white;
+}
+footer.parrafo2{
+    color: #9b9898;
 }
