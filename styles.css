@@ -149,64 +149,58 @@ body{
     margin: 0;
     padding: 0;
 }
-header{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color:rgb(24, 27, 61);    
-}
-.header-div2{
-    margin: 0;
-    padding: 0;
-}
-header h1{
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-header h3{
-    color: rgb(255, 255, 255);
-    display: inline-block;
-}
-/*header div{
+.container {
     display: flex;
-    align-items: center;
-    justify-content:center;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f2f2f2;
 }
-img.foto-perfil{
-    width: 100px;
-}
-h1.tprincipal{
-    color: white;
+.content h1 {
     margin: 0;
-    text-align: center;
     font-size: 24px;
+}
+.content h3 {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #666;
+}
+.image {
+    max-width: 50%;
+    margin-right: 20px;
+}
+.content {
+    flex: 1;
+    text-align: right;
 }
 h2{
     text-align: center;
-}*/
-nav{
-    width:calc(100%-100px);
-    display: flex;
-    justify-content:center;
-    margin-top: auto;
 }
-ul.navegacion{
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-li{
-    display: inline;
-    padding: 10px;
+.navigation li {
+    margin-right: 20px;
 }
-i{
-    font-size: 24px;
+.img-alt{
+    width: 48px;
+    height: 48px;
+}
+/* i{
+    font-size: 48px;
     color:rgb(24, 27, 61);
-}
-a{
+} */
+.navigation a {
     text-decoration: none;
-    color: #ffffff;
+    color: #333;
+    font-weight: bold;
 }
 a:hover {
     color: rgb(72, 164, 207);
@@ -227,18 +221,18 @@ p{
     margin: 5px;
 }
 .resume {
-  width: 80%;
-  margin: 20px auto;
-  padding: 20px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
 }
 .resume p {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 .resume ul {
-  list-style: disc;
-  margin-left: 20px;
+    list-style: disc;
+    margin-left: 20px;
 }
 .img-dessarrollador{
     width: 50px;
