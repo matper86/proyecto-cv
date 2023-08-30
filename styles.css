@@ -141,41 +141,56 @@ template {
 /**-------------------------------------------------------- MI ESTILO -------------------------------------------------------------------------------------**/
 html{
     scroll-behavior: auto;
+    margin:0;
+    padding: 0;
 }
 body{
     font-family:'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 header{
     width: 100%;
-    background-color:rgb(24, 27, 61);
+    margin: 0;
+    padding: 0;
+    background-color:rgb(24, 27, 61);    
 }
-header div{
+.header-div2{
+    margin: 0;
+    padding: 0;
+}
+header h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+header h3{
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+/*header div{
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    text-align: center;
-
+    justify-content:center;
 }
 img.foto-perfil{
-    width: 100px; /* Ajustar el tamaño de la imagen */
+    width: 100px;
 }
 h1.tprincipal{
     color: white;
     margin: 0;
     text-align: center;
+    font-size: 24px;
 }
-div h3{
-    color: white;
-    margin: 0;
-}
+h2{
+    text-align: center;
+}*/
 nav{
     width:calc(100%-100px);
     display: flex;
     justify-content:center;
     margin-top: auto;
 }
-ul{
+ul.navegacion{
     list-style: none;
     margin: 0;
     padding: 0;
@@ -192,7 +207,6 @@ i{
 a{
     text-decoration: none;
     color: #ffffff;
-    display: block;
 }
 a:hover {
     color: rgb(72, 164, 207);
@@ -206,6 +220,9 @@ a:hover {
 .columna2{
     width: 30%;
 }
+.objetivo{
+    text-align: center;
+}
 p{
     margin: 5px;
 }
@@ -216,16 +233,13 @@ p{
   background-color: #f0f0f0;
   border: 1px solid #ccc;
 }
-
 .resume p {
   margin: 10px 0;
 }
-
 .resume ul {
   list-style: disc;
   margin-left: 20px;
 }
-
 .img-dessarrollador{
     width: 50px;
     height: 50px;
