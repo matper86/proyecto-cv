@@ -15,28 +15,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-               <img class="foto-perfil" src="https://randomuser.me/api/portraits/men/34.jpg" alt="foto-perfil">
-            <div class="header-titulos">
-                <h1  id="inicio" class="tprincipal">CARLOS FERRARO</h1>
-                <h3>DESARROLLADOR WEB FULL STACK</h3>
+    <header id="inicio">
+        <div>
+            <img class="foto-perfil" src="https://randomuser.me/api/portraits/men/34.jpg" alt="foto-perfil">
+            <div>
+                <h1 class="encabezado-titulo-h1">CARLOS FERRARO</h1>
+                <h3 class="encabezado-titulo-h3">DESARROLLADOR WEB FULL STACK</h3>
             </div>
-            <div class="navigation">
+            <div class="menu-nav">
                 <nav>
                     <ul>
-                        <li><a href="index.html#datos">DATOS PERSONALES</a></li>
-                        <li><a href="index.html#educacion">EDUCACIÓN</a></li>
-                        <li><a href="index.html#experiencia">EXPERIENCIA LABORAL</a></li>
-                        <li><a href="index.html#obgetivo">OBJETIVO</a></li>
-                        <li><a href="index.html#otros">OTROS CONOCIMIENTOS</a></li>
+                        <li><a href="#datos">DATOS PERSONALES</a></li>
+                        <li><a href="#educacion">EDUCACIÓN</a></li>
+                        <li><a href="#experiencia">EXPERIENCIA LABORAL</a></li>
+                        <li><a href="#obgetivo">OBJETIVO</a></li>
+                        <li><a href="#otros">OTROS CONOCIMIENTOS</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section id="datos">
+        <div class="linea-separadora">
+            <hr id="datos" class="linea-transparente">
+        </div>     
+        <section>
             <article>
                 <h2>DATOS PERSONALES</h2>
                 <div class="resume">
@@ -65,12 +68,17 @@
                 </div>
             </article>
                 <div>
-                    <!-- <a href="index.html#inicio"><img class="img-alt" src="assets/favicon.ico" alt="img-offline"></a> -->
-                    <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
-                    <hr>
+                    <div class="boton-retorno">
+                        <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
+                    </div>
+                    <div>
+                        <div class="linea-separadora">
+                            <hr id="educacion">
+                        </div>           
+                    </div>
                 </div>
         </section>
-        <section id="educacion">
+        <section >
             <article>
                 <h2>EDUCACIÓN</h2>
                    <div class="resume">
@@ -104,12 +112,17 @@
                     </div>
             </article>
             <div>
-                <!-- <a href="index.html#inicio"><img class="img-alt" src="assets/favicon.ico" alt="img-offline"></a>                -->
-                <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
-                <hr>
+                <div class="boton-retorno">
+                    <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
+                </div>
+                <div>
+                    <div class="linea-separadora">
+                        <hr id="experiencia">
+                    </div>           
+                </div>
             </div>
         </section>
-        <section id="experiencia">
+        <section>
             <article>
                 <h2>EXPERIENCIA LABORAL</h2>
                 <div class="resume">
@@ -223,12 +236,17 @@
                 </div>    
             </article>
             <div>
-                <!-- <a href="index.html#inicio"><img class="img-alt" src="assets/favicon.ico" alt="img-offline"></a> -->
-                <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
-                <hr>
+                <div class="boton-retorno">
+                    <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
+                </div>
+                <div>
+                    <div class="linea-separadora">
+                        <hr id="obgetivo">
+                    </div>           
+                </div>
             </div>
         </section>    
-        <section id="obgetivo">
+        <section>
             <article>
                 <h2>OBJETIVO</h2>
                 <div class="resume">
@@ -238,12 +256,17 @@
                 </div>
             </article>
             <div>
-                <!-- <a href="index.html#inicio"><img class="img-alt" src="assets/favicon.ico" alt="img-offline"></a> -->
-                <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
-                <hr>
+                <div class="boton-retorno">
+                    <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
+                </div>
+                <div>
+                    <div class="linea-separadora">
+                        <hr id="otros">
+                    </div>           
+                </div>
             </div>
         </section>
-        <section id="otros">
+        <section>
             <article>           
                 <h2>OTROS CONOCIMIENTOS</h2>
                     <div class="resume">
@@ -291,17 +314,23 @@
                 </div>
             </article>
             <div>
-                <!-- <a href="index.html#inicio"><img class="img-alt" src="assets/favicon.ico" alt="img-offline"></a> -->
-                <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
+                <div class="boton-retorno">
+                    <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
+                </div>
+                <div>
+                    <div class="linea-separadora">
+                        <hr class="linea-transparente">>
+                    </div>           
+                </div>
             </div>
         </section>
     </main>
     <footer>
-            <div>
-                <p class="parrafo1">Copyright © 2023 Todos los derechos reservados.</p>
-                <P class="parrado2">Desarrollado por Matias Pereyra</P>
-                <a href="mailto: mepm.work@gmail.com"><img class="img-dessarrollador" src="assets/desarrollador.jpg" alt="desarrollador"></a>
-            </div>
+        <div>
+            <p class="parrafo1">Copyright © 2023 Todos los derechos reservados.</p>
+            <P class="parrado2">Desarrollado por Matias Pereyra</P>
+            <a href="mailto: mepm.work@gmail.com"><img class="img-dessarrollador" src="assets/desarrollador.jpg" alt="desarrollador"></a>
+        </div>
     </footer>
     <script src="javascript.js"></script>
     <script src="https://kit.fontawesome.com/7027fa2602.js" crossorigin="anonymous"></script>

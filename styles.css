@@ -141,66 +141,62 @@ template {
 /**-------------------------------------------------------- MI ESTILO -------------------------------------------------------------------------------------**/
 html{
     scroll-behavior: auto;
-    margin:0;
-    padding: 0;
 }
 body{
     font-family:'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
 }
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
+header{
+    display: flex; /* revissar su funcionamiento */
     background-color:rgb(24, 27, 61);
 }
-.content h1 {
-    margin: 0;
-    font-size: 24px;
-    color: white;
-}
-.content h3 {
-    margin: 5px 0;
-    font-size: 18px;
-    color: #9b9898;
-}
 .foto-perfil {
-    max-width: 50%;
-    margin-right: 20px;
+   width: 8rem;
+   margin: 1rem;
+   border-radius: 10%;
 }
-.contheader-titulos {
-    flex: 1;
-    text-align: right;
+.encabezado-titulo-h1{
+    margin: 0;
+    font-size: 2rem;
+    color: #f0f0f0;
+}
+.encabezado-titulo-h3{
+    margin: 0;
+    font-size: 1.25rem;
+    color: #ccc;
+}
+.menu-nav{
+    display: flex;
+    align-items: center;
 }
 h2{
     text-align: center;
 }
-.navigation{
-    display: flex;
-    align-items: center;
-}
-.navigation ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.navigation li {
-    margin-right: 20px;
-}
-.img-alt{
-    width: 48px;
-    height: 48px;
-}
 i{
-    font-size: 48px;
+    font-size: 3rem;
     color:rgb(24, 27, 61);
 }
-.navigation a {
+
+
+
+
+
+
+.boton-retorno{
+    margin: 0;
+    padding-right: 2rem;
+    text-align: right;
+}
+.linea-separadora{
+    width: 80%;
+    margin: 0 auto;    
+}
+.linea-transparente{
+    border: none;
+    border-top: 0px solid transparent;
+}
+a {
     text-decoration: none;
-    color: #333;
+    color: #ccc;
     font-weight: bold;
 }
 a:hover {
@@ -227,6 +223,7 @@ p{
     padding: 20px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.2);
 }
 .resume p {
     margin: 10px 0;
@@ -236,21 +233,22 @@ p{
     margin-left: 20px;
 }
 .img-dessarrollador{
-    width: 50px;
-    height: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
 }
 footer{
     width: 100%;
+    height: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:rgb(24, 27, 61);
     text-align: center;
 }
-footer.parrafo1{
+.parrafo1{
     color: white;
 }
-footer.parrafo2{
+.parrado2{
     color: #9b9898;
 }
