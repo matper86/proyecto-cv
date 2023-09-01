@@ -146,8 +146,13 @@ body{
     font-family:'Roboto', sans-serif;
 }
 header{
-    display: flex;
     background-color:rgb(24, 27, 61);
+}
+.header-div-tamaño{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .foto-perfil {
    width: 8rem;
@@ -175,6 +180,24 @@ i{
     font-size: 3rem;
     color:rgb(24, 27, 61);
 }
+.contenedor-rsociales-izquierda{
+    padding: 1.5rem;
+}
+.contenedor-rsociales-derecha{
+    padding: 1.5rem;
+}
+.fa-facebook {
+    font-size: 2rem;
+    color: white
+}
+.fa-square-instagram{
+    font-size: 2rem;
+    color: white
+}
+.fa-square-twitter{
+    font-size: 2rem;
+    color: white
+}
 .boton-retorno{
     margin: 0;
     padding-right: 2rem;
@@ -185,6 +208,7 @@ i{
     margin: 0 auto;    
 }
 .linea-transparente{
+    border: none;
     border-top: 0px solid transparent;
 }
 a{
