@@ -212,6 +212,7 @@ i{
     background-color:rgb(24, 27, 61);
  }
 .nav-box{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -224,10 +225,12 @@ i{
     text-align: center;
     display: flex;
 }
-/* .fila li{
+.fila li{
     width: 100%;
+    margin: 0;
+    padding: 0 0.5rem;
     display: inline-block;
-} */
+}
 .linea-separadora{
     width: 80%;
     margin: 0 auto;    
