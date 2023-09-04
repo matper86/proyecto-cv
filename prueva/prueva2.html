@@ -6,9 +6,12 @@
 </head>
 <body>
     <script>
-        const persona = '{"Nombre":"Marcos","Apellido":"Ferrero","DNI":"226098456","Nacionalidad":"Ecuatoriano","Celular":"0345-569876","Email":"MFerrero23@gmail.com"}';
-        const obj = JSON.parse(persona);
-        console.log(obj);
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+            .then(response => response.json())
+            .then(json => console.log(json))
     </script>
+    <p id="demo">
+    </p>
+    <script src="prueva2.js"></script>
 </body>
 </html>
