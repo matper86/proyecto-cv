@@ -282,10 +282,12 @@ footer{
     display: flex;
 }
 .pie-pagina{
+    position: absolute;
+    bottom: 0;
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color:rgb(24, 27, 61);
+    background-color:rgb(17, 19, 43);
     text-align: center;
 }
 .parrafo1{
