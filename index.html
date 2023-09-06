@@ -14,9 +14,9 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/favicon.ico">
-    <link rel="apple-touch-startup-image" href="assets/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <link rel="apple-touch-startup-image" href="assets/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -42,26 +42,26 @@
         <div class="fila">
             <nav class="nav-box">
                 <ul>
-                    <li><a href="#datos">DATOS PERSONALES</a></li>
-                    <li><a href="#educacion">EDUCACIÓN</a></li>
-                    <li><a href="#experiencia">EXPERIENCIA LABORAL</a></li>
-                    <li><a href="#obgetivo">OBJETIVO</a></li>
-                    <li><a href="#otros">OTROS CONOCIMIENTOS</a></li>
+                    <li><a id="dat" href="#datos">DATOS PERSONALES</a></li>
+                    <li><a id="edu" href="#educacion">EDUCACIÓN</a></li>
+                    <li><a id="exp" href="#experiencia">EXPERIENCIA LABORAL</a></li>
+                    <li><a id="obg" href="#obgetivo">OBJETIVO</a></li>
+                    <li><a id="otr" href="#otros">OTROS CONOCIMIENTOS</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <section>
-            <div class="text-deco bienvenida">
-                <h2 class="bienvenida-h1"><b> BIENVENIDO/A A MI CURRICULUM VITAE </b></h2>
-                <H4> Para comenzar haz clic en algun enlace del navegador.</H3>
-            </div>
+        <section id="ocultarBie" style="display: block;">
+            <article>
+                <div class="text-deco bienvenida">
+                    <h2 class="bienvenida-h1"><b> BIENVENIDO/A A MI CURRICULUM VITAE </b></h2>
+                    <H4> Para comenzar haz clic en algun enlace del navegador.</H4>
+                </div>
+            </article>
+        </div>
         </section>
-        <section class="seccion" >
-            <div class="linea-separadora">
-                <hr id="datos" class="linea-transparente">
-            </div> 
+        <section id="ocultarDat" style="display: none;">
             <article>
                 <h2>DATOS PERSONALES</h2>
                 <div class="text-deco">
@@ -89,18 +89,8 @@
                     </div>
                 </div>
             </article>
-                <div>
-                    <div class="boton-retorno">
-                        <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
-                    </div>
-                    <div>
-                        <div class="linea-separadora">
-                            <hr id="educacion">
-                        </div>           
-                    </div>
-                </div>
         </section>
-        <section class="seccion">
+        <section id="ocultarEdu" style="display: none;">
             <article>
                 <h2>EDUCACIÓN</h2>
                    <div class="text-deco">
@@ -144,7 +134,7 @@
                 </div>
             </div>
         </section>
-        <section class="seccion">
+        <section id="ocultarExp" style="display: none;">
             <article>
                 <h2>EXPERIENCIA LABORAL</h2>
                 <div class="text-deco">
@@ -263,12 +253,11 @@
                 </div>
                 <div>
                     <div class="linea-separadora">
-                        <hr id="obgetivo">
+                        <hr id="experiencia">
                     </div>           
                 </div>
-            </div>
         </section>    
-        <section class="seccion">
+        <section id="ocultarObg" style="display: none;">
             <article>
                 <h2>OBJETIVO</h2>
                 <div class="text-deco">
@@ -277,18 +266,8 @@
                     </div>
                 </div>
             </article>
-            <div>
-                <div class="boton-retorno">
-                    <a href="index.html#inicio"><i class="fa-regular fa-circle-up"></i></a>
-                </div>
-                <div>
-                    <div class="linea-separadora">
-                        <hr id="otros">
-                    </div>           
-                </div>
-            </div>
         </section>
-        <section class="seccion">
+        <section id="ocultarOtr" style="display: none;">
             <article>           
                 <h2>OTROS CONOCIMIENTOS</h2>
                     <div class="text-deco">
@@ -341,7 +320,7 @@
                 </div>
                 <div>
                     <div class="linea-separadora">
-                        <hr class="linea-transparente">
+                        <hr id="experiencia">
                     </div>           
                 </div>
             </div>
