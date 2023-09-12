@@ -79,13 +79,29 @@ i{
     font-size: 2rem;
     color: white;
 }
+ /* modificado */
 .fila {
+    display: flex;  /* modificado */
+    flex-direction: row;  /* modificado */
     background-color:rgb(24, 27, 61);
  }
 .nav-box{
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 5px;
+    color: white;
+    flex-basis: 100%;
+    text-align: center;
 }
+@media (max-width: 200px){
+    .fila{
+        flex-direction: column;
+        }
+    .nav-box{
+        flex-basis: 100%;
+        }
+}
+ /* modificado */
 .fila ul{
     list-style: none;
     margin: 0;
